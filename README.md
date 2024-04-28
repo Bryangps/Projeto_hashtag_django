@@ -1,7 +1,6 @@
-# Título do projeto
+# Hashflix 
 
-<img src="![image](https://github.com/Bryangps/Projeto_hshflix_django/assets/139917902/3bb153e8-df80-40dc-a8d3-c91d1f8b4edf)
-" alt="Exemplo imagem">
+![Captura de tela 2024-04-28 143755](https://github.com/Bryangps/Projeto_hshflix_django/assets/139917902/0029aa8a-7401-487f-b033-d7a81b89e575)
 
 
 Um parágrafo da descrição do projeto vai aqui
