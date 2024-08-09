@@ -1,4 +1,4 @@
-# Hashflix 
+# Hashtag
 
 ![Captura de tela 2024-04-28 143755](https://github.com/Bryangps/Projeto_hshflix_django/assets/139917902/0029aa8a-7401-487f-b033-d7a81b89e575)
 
