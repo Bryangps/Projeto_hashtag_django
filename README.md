@@ -1,88 +1,45 @@
 # Hashtag
 
+Este é o projeto Hashflix, desenvolvido durante um curso de Django e Python. O projeto simula uma plataforma de streaming semelhante à Netflix, onde os usuários podem explorar, pesquisar e assistir a uma variedade de filmes e séries.
+
 ![Captura de tela 2024-04-28 143755](https://github.com/Bryangps/Projeto_hshflix_django/assets/139917902/0029aa8a-7401-487f-b033-d7a81b89e575)
 
-## Desrição 
--> Este é um projeto backend desenvolvido com python, usando o fremework Django. Objetivo do projeto e fazer uma replica da netflix.
+## Funcionalidades
+- Autenticação de Usuários: Cadastro, login e logout de usuários.
+- Perfis de Usuário: Criação de múltiplos perfis para cada conta, permitindo personalização.
+- Catálogo de Filmes e Séries: Exibição de uma lista de filmes e séries com detalhes como título, descrição, 
+  gênero, e classificações.
+- Pesquisa e Filtros: Pesquisa por títulos específicos e filtros baseados em gênero, ano de lançamento, etc.
+- Reprodução de Vídeos: Integração com um player de vídeo para a reprodução de trailers ou conteúdos disponíveis.
+- Recomendações: Sugestões de filmes e séries baseadas no histórico de visualizações do usuário.
+
+Hashtag Django
+Este é o projeto Hashtag Django, desenvolvido durante um curso de Django e Python. O projeto simula uma plataforma de streaming semelhante à Netflix, onde os usuários podem explorar, pesquisar e assistir a uma variedade de filmes e séries.
 
 
+## Tecnologias Utilizadas
+
+- Django: Framework principal utilizado para o desenvolvimento do backend.
+- Python: Linguagem de programação utilizada em conjunto com Django.
+- HTML/CSS/JavaScript: Para a construção da interface do usuário.
+- SQLite: Banco de dados utilizado para armazenar informações de usuários, filmes, séries, etc.
+- Bootstrap: Framework CSS para estilização da interface.
 
 
-### 📋 Pré-requisitos
+## Como Executar o Projeto
 
-De que coisas você precisa para instalar o software e como instalá-lo?
+- Clone o repositório:
+   git clone https://github.com/Bryangps/Projeto_hashtag_django.git
 
-```
-Dar exemplos
-```
+- Instale as dependências:
+  pip install -r requirements.txt
 
-### 🔧 Instalação
+- Execute as migrações do banco de dados:
+  python manage.py migrate
 
-Uma série de exemplos passo-a-passo que informam o que você deve executar para ter um ambiente de desenvolvimento em execução.
+- Inicie o servidor de desenvolvimento:
+  python manage.py runserver  
 
-Diga como essa etapa será:
+## Licença 
+Este projeto é licenciado sob a licença MIT. Consulte o arquivo LICENSE para mais informações.
 
-```
-Dar exemplos
-```
-
-E repita:
-
-```
-Até finalizar
-```
-
-Termine com um exemplo de como obter dados do sistema ou como usá-los para uma pequena demonstração.
-
-## ⚙️ Executando os testes
-
-Explicar como executar os testes automatizados para este sistema.
-
-### 🔩 Analise os testes de ponta a ponta
-
-Explique que eles verificam esses testes e porquê.
-
-```
-Dar exemplos
-```
-
-### ⌨️ E testes de estilo de codificação
-
-Explique que eles verificam esses testes e porquê.
-
-```
-Dar exemplos
-```
-
-## 📦 Implantação
-
-Adicione notas adicionais sobre como implantar isso em um sistema ativo
-
-## 🛠️ Construído com
-
-Mencione as ferramentas que você usou para criar seu projeto
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - O framework web usado
-* [Maven](https://maven.apache.org/) - Gerente de Dependência
-* [ROME](https://rometools.github.io/rome/) - Usada para gerar RSS
-
-## 🖇️ Colaborando
-
-Por favor, leia o [COLABORACAO.md](https://gist.github.com/usuario/linkParaInfoSobreContribuicoes) para obter detalhes sobre o nosso código de conduta e o processo para nos enviar pedidos de solicitação.
-
-## 📌 Versão
-
-Nós usamos [SemVer](http://semver.org/) para controle de versão. Para as versões disponíveis, observe as [tags neste repositório](https://github.com/suas/tags/do/projeto). 
-
-## ✒️ Autores
-
-Mencione todos aqueles que ajudaram a levantar o projeto desde o seu início
-
-* **Um desenvolvedor** - *Trabalho Inicial* - [umdesenvolvedor](https://github.com/linkParaPerfil)
-* **Fulano De Tal** - *Documentação* - [fulanodetal](https://github.com/linkParaPerfil)
-
-Você também pode ver a lista de todos os [colaboradores](https://github.com/usuario/projeto/colaboradores) que participaram deste projeto.
-
-## 📄 Licença
-
-Este projeto está sob a licença (sua licença) - veja o arquivo [LICENSE.md](https://github.com/usuario/projeto/licenca) para detalhes.
